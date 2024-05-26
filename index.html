@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio 2</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="menu">
+        <div class="about" onclick="showDiv('aboutDIV')">
+            <img src="images/linkedin.jpg" alt="test" width="60" height="60">
+            <span class="caption">About</span>
+        </div>
+        <div class="github">
+            <img src="images/linkedin.jpg" alt="test" width="60" height="60">
+            <span class="caption">Github</span>
+        </div>
+        <div class="resume">
+            <img src="images/linkedin.jpg" alt="test" width="60" height="60">
+            <span class="caption">Resume</span>
+        </div>
+        <div class="contact">
+            <img src="images/linkedin.jpg" alt="test" width="60" height="60">
+            <span class="caption">Contact</span>
+        </div>
+    </div>
+    <div class="about_page" id="aboutDIV">
+        <div class="page_title">
+            <h3>About</h3>
+        </div>
+        <div class="profile">
+            <img src="images/linkedin.jpg" alt="test" width="200">
+            
+        </div>    
+        <div class="chat">
+            <p style="color: red;">Now chatting with busypatzer</p>
+            <p><b>&lt;busypatzer&gt;</b> Hey there! My name is Patrick Zerrudo!</p>
+            <p><b>&lt;busypatzer&gt;</b> I am a 2024 graduate from Michigan State University with a BS in Information Science and a minor in German!</p>
+            <p><b>&lt;busypatzer&gt;</b> I have worked as a lead instructor at iDTech, a tutor at Rise and Shine Tutoring, and an AI writing evaluator with Outlier</p>
+            <p><b>&lt;busypatzer&gt;</b> I hope to use my skills of web development, information technology, policy research and teaching in a renewable energy field or environmental protection.</p>
+            <p><b>&lt;busypatzer&gt;</b> Why does this conversation feel so one-sided?</p>
+        </div>
+        <input value="Send a chat">
+    </div>
+    <iframe class = "music" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1LfrInCJGxz05aiWhC5Eq8?utm_source=generator" width="30%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    <div class="taskbar">
+        <button onclick="showDiv('aboutDIV')" class="start_btn">Button</button>
+    </div>
+  </body>
